@@ -1,17 +1,17 @@
-//This program *calculates* the cost of **Gym_Membership** and the **Discount** when **Friends** sign up.
+//This program *calculates* the **Cost** of **Gym_Membership** and the discount when **Friends** sign up.
 
-function convertGymMembershipCosts(Friends, Discount){
+function convertGymMembershipCosts(Friends, Cost){
     if(Friends = 1){
-	return Discount * 0.95;
+	return Cost * 0.95;
     }
     if(Friends = 2){
-    return Discount * 0.9;
+    return Cost * 0.9;
     }
     if(Friends >= 3){
-    return Discount * 0.85;
+    return Cost * 0.85;
     }
     else{
-        return Discount;
+        return Cost;
     }
 }  
 
